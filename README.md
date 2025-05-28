@@ -42,19 +42,18 @@ A web-based platform for securely uploading, reviewing, managing, and retrieving
 
 ## 🚀 Installation & Setup
 
-1. **Clone the repository**:
+1. **Clone the repository to you local/cloud server's htdocs folder**:
    ```bash
-   git clone https://github.com/your-repo/tschi-dms.git
-2. Import the database (SQL file not included here):
-3. Create a database (e.g., tschi_dms)
-4. Import the provided tschi_dms.sql
-5. Configure database settings in config.php:
-6. Edit $conn = new mysqli("localhost", "root", "", "tschi_dms");
-7. Ensure folders are writable:
+   git clone https://github.com/SwampiZzz/tschi-dms.git
+2. Create a database named tschi_dms
+3. Import the provided tschi_dms.sql
+4. Configure database settings in config.php:
+5. Edit $conn = new mysqli("localhost", "root", "", "tschi_dms"); (if necessary)
+6. Ensure folders are writable:
    - uploads/
    - elems/profile-picture/
-8. Run locally:
-9. Open http://localhost/tschi_dms in your browser.
+7. Run locally:
+8. Open http://localhost/tschi_dms in your browser.
 ----------------------
 ## 👤 Developers
 
